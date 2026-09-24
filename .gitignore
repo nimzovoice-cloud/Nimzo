@@ -1,0 +1,39 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.idea/
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Generated Flutter platform files
+# Keep platform source/configuration files tracked once generated.
+
+# Android
+.gradle/
+local.properties
+*.jks
+*.keystore
+
+# iOS
+Pods/
+.DerivedData/
+*.xcuserstate
+
+# Secrets
+.env
+.env.*
+!.env.example
